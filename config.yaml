@@ -1,0 +1,6 @@
+model: distilbert-base-uncased
+epochs: 3
+batch_size: 16
+learning_rate: 2e-5
+output_dir: "./models/fine-tuned-agnews"
+dataset: "ag_news"
